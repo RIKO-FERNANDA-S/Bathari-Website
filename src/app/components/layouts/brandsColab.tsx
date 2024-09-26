@@ -1,12 +1,12 @@
 "use client"
 import React from 'react'
 import Image from 'next/image'
-import imgBrand1 from "../../../../public/img/imgHome/BRAND UHUY/FONT-Fry'sBaskerville.jpg"
-import imgBrand2 from "../../../../public/img/imgHome/BRAND UHUY/FONT-Garet.jpg"
-import imgBrand3 from "../../../../public/img/imgHome/BRAND UHUY/FONT-Grand Cru L.jpg"
-import imgBrand4 from "../../../../public/img/imgHome/BRAND UHUY/FONT-RoxboroughCF.jpg"
-import imgBrand5 from "../../../../public/img/imgHome/BRAND UHUY/FONT-RoxboroughCF2.jpg"
-import imgBrand6 from "../../../../public/img/imgHome/BRAND UHUY/FONT-Warbaum.jpg"
+import imgBrand1 from "../../../../public/img/brandCollab/1.png"
+import imgBrand2 from "../../../../public/img/brandCollab/2.png"
+import imgBrand3 from "../../../../public/img/brandCollab/3.png"
+import imgBrand4 from "../../../../public/img/brandCollab/4.png"
+import imgBrand5 from "../../../../public/img/brandCollab/5.png"
+import imgBrand6 from "../../../../public/img/brandCollab/6.png"
 
 import { Splide, SplideSlide } from '../../../../node_modules/@splidejs/react-splide';
 import '@splidejs/react-splide/css/sea-green';
