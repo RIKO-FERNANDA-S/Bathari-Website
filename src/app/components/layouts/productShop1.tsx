@@ -38,7 +38,7 @@ function productShop1() {
           <div className='w-64 bg-white shadow-lg border-2 rounded-t-md'>
             <Image src={imgProduct1} alt='product' className='rounded-t-md'></Image>
             <div className='p-4'>
-              <h1 className='text-wrap text-lg mb-1'>Warduh - Sun Cream Mencerahkan Kulit Maghrib</h1>
+              <h1 className='text-lg mb-1 truncate'>Warduh - Sun Cream Mencerahkan Kulit Maghrib</h1>
               <div className='flex items-center mb-3'>
               <p className='text-xs'>5.0</p>
               <ul className='flex text-xs'>
@@ -59,7 +59,7 @@ function productShop1() {
           <div className='w-64 bg-white shadow-lg border-2 rounded-t-md'>
             <Image src={imgProduct2} alt='product' className='rounded-t-md'></Image>
             <div className='p-4'>
-              <h1 className='text-wrap text-lg mb-1'>A Venus - Hair Care Shampoo Pencegah Rambut  Rontok</h1>
+              <h1 className='text-lg mb-1 truncate'>A Venus - Hair Care Shampoo Pencegah Rambut  Rontok</h1>
               <div className='flex items-center mb-3'>
               <p className='text-xs'>5.0</p>
               <ul className='flex text-xs'>
@@ -80,7 +80,7 @@ function productShop1() {
 {/*skip*/}<div className='w-64 bg-white shadow-lg border-2 rounded-t-md'>
             <Image src={imgProduct3} alt='product' className='rounded-t-md'></Image>
             <div className='p-4'>
-              <h1 className='text-wrap text-lg mb-1'>A Venus - Hair Care Shampoo Pencegah Rambut  Rontok</h1>
+              <h1 className='text-lg mb-1 truncate'>A Venus - Hair Care Shampoo Pencegah Rambut  Rontok</h1>
               <div className='flex items-center mb-3'>
               <p className='text-xs'>5.0</p>
               <ul className='flex text-xs'>
@@ -101,7 +101,7 @@ function productShop1() {
 {/*skip*/}<div className='w-64 bg-white shadow-lg border-2 rounded-t-md'>
             <Image src={imgProduct4} alt='product' className='rounded-t-md'></Image>
             <div className='p-4'>
-              <h1 className='text-wrap text-lg mb-1'>Warduh - Sun Cream Mencerahkan Kulit Maghrib</h1>
+              <h1 className='text-lg mb-1 truncate'>Warduh - Sun Cream Mencerahkan Kulit Maghrib</h1>
               <div className='flex items-center mb-3'>
               <p className='text-xs'>5.0</p>
               <ul className='flex text-xs'>
@@ -122,7 +122,7 @@ function productShop1() {
           <div className='w-64 bg-white shadow-lg border-2 rounded-t-md'>
             <Image src={imgProduct5} alt='product' className='rounded-t-md'></Image>
             <div className='p-4'>
-              <h1 className='text-wrap text-lg mb-1'>DOIR - Liquid Foundation Super Glowing, For A Radiant.</h1>
+              <h1 className='text-lg mb-1 truncate'>DOIR - Liquid Foundation Super Glowing, For A Radiant.</h1>
               <div className='flex items-center mb-3'>
               <p className='text-xs'>5.0</p>
               <ul className='flex text-xs'>
@@ -143,7 +143,7 @@ function productShop1() {
           <div className='w-64 bg-white shadow-lg border-2 rounded-t-md'>
             <Image src={imgProduct6} alt='product' className='rounded-t-md'></Image>
             <div className='p-4'>
-              <h1 className='text-wrap text-lg mb-1'>Vijra Beauty - Message Oil Orchid Aromateraphy </h1>
+              <h1 className='text-lg mb-1 truncate'>Vijra Beauty - Message Oil Orchid Aromateraphy </h1>
               <div className='flex items-center mb-3'>
               <p className='text-xs'>5.0</p>
               <ul className='flex text-xs'>
@@ -164,7 +164,7 @@ function productShop1() {
           <div className='w-64 bg-white shadow-lg border-2 rounded-t-md'>
             <Image src={imgProduct7} alt='product' className='rounded-t-md'></Image>
             <div className='p-4'>
-              <h1 className='text-wrap text-lg mb-1'>GIVE - Sunscreen Anti UVA/UVB Protect SPF 50, Lightweight Protection.</h1>
+              <h1 className='text-lg mb-1 truncate'>GIVE - Sunscreen Anti UVA/UVB Protect SPF 50, Lightweight Protection.</h1>
               <div className='flex items-center mb-3'>
               <p className='text-xs'>5.0</p>
               <ul className='flex text-xs'>
@@ -185,7 +185,7 @@ function productShop1() {
           <div className='w-64 bg-white shadow-lg border-2 rounded-t-md'>
             <Image src={imgProduct8} alt='product' className='rounded-t-md'></Image>
             <div className='p-4 '>
-              <h1 className='text-wrap text-lg mb-1'>HANZ - Hair Spray Foam Wash 150 ml, Volumizes Effortlessly.</h1>
+              <h1 className='text-lg mb-1 truncate'>HANZ - Hair Spray Foam Wash 150 ml, Volumizes Effortlessly.</h1>
               <div className='flex items-center mb-3'>
               <p className='text-xs'>5.0</p>
               <ul className='flex text-xs'>

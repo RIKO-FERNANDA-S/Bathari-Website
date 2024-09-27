@@ -2,8 +2,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-
-
+// Image from ai freepik or freepik
 import imgFormal1 from "../../../../public/img/gallery/formal/1.1.png"
 import imgFormal2 from "../../../../public/img/gallery/formal/1.2.png"
 import imgFormal3 from "../../../../public/img/gallery/formal/2.png"

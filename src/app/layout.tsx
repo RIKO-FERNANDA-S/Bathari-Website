@@ -1,6 +1,4 @@
 'use client';
-import type { Metadata } from "next";
-import localFont from "next/font/local";
 import "./globals.css";
 import 'boxicons/css/boxicons.min.css';
 import Navbar from "@/app/components/UI/navbar";
@@ -15,7 +13,8 @@ import { usePathname } from "next/navigation";
 // };
 
 
-const disabledSearch = ['/trending','/about','/shop','/gallery']
+const disabledSearch = ['/trending','/about','/shop','/gallery','/shop/detailProduct']
+const disabledNavbar = ['/shop/detailProduct']
 
 export default function RootLayout({children }: Readonly<{ children: React.ReactNode; }>) 
 {
@@ -24,7 +23,7 @@ export default function RootLayout({children }: Readonly<{ children: React.React
     <html lang="en">
       <body>
       {!disabledSearch.includes(pathname) && <Seacrh />}
-      <Navbar/>
+      {!disabledNavbar.includes(pathname) && <Navbar/>}
         {children}
         <Footer/>
       </body>

@@ -5,8 +5,8 @@ import Link from 'next/link';
 import Facebook from "../../../../public/img/social-media/facebook.png"
 import Whastapp from "../../../../public/img/social-media/whatsapp.png"
 import Instagram from "../../../../public/img/social-media/instagram.png"
-import Tweeter from "../../../../public/img/social-media/tweeter.png"
-import Github from "../../../../public/img/social-media/github.png"
+import Tweeter from "../../../../public/img/social-media/Group 68.png"
+import Telegram from "../../../../public/img/social-media/Group 67.png"
 
 function footer() {
   return (
@@ -46,7 +46,7 @@ function footer() {
         </div>
         <div className='flex gap-10 w-1/2 justify-center'>
           <Image src={Facebook} alt='facebook' className='w-10'></Image>
-          <Image src={Github} alt='github' className='w-10'></Image>
+          <Image src={Telegram} alt='Telegram' className='w-10'></Image>
           <Image src={Tweeter} alt='tweeter' className='w-10'></Image>
           <Image src={Whastapp} alt='whatsapp' className='w-10'></Image>
           <Image src={Instagram} alt='instagram' className='w-10'></Image>

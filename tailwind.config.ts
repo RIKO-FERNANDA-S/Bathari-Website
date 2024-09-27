@@ -15,6 +15,7 @@ const config: Config = {
         shadowBtn: '2px 2px 0px 1px rgba(0, 0, 0)',
         'profil': '0 0 15px -6px rgba(0,0,0)',
         cardTrending: '6px 6px 0px 2px rgba(0, 0, 0)',
+        cardFlashSale: '4px 4px 0px 2px rgba(0, 0, 0, 0.8)',
         shadowBenner: '3px 3px 0px 2px rgba(0, 0, 0)',
         shadowRecommend: '3px 3px 10px -5px rgba(0, 0, 0)',
         
@@ -31,6 +32,7 @@ const config: Config = {
       fontFamily: {
         'batharia': "'Jacques Francois', serif",
         'poppins': "'Poppins', sans-serif",
+        'alumni': "'Alumni Sans', sans-serif",
       },
       textColor:{
         'textFooter': "#AAAA",
@@ -52,6 +54,8 @@ const config: Config = {
 
     },
   },
-  plugins: [],
+  plugins: [
+    require('daisyui')
+  ],
 };
 export default config;

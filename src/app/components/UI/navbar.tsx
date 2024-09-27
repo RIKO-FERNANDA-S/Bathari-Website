@@ -1,11 +1,11 @@
 "use client";
 import React from "react";
-import Seacrh from "./seacrh";
 import { Jacques_Francois } from "next/font/google";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import BtnLogin from "@/app/components/UI/btnLogin"
 import BtnSignUp from "./btnSignUp";
+import {motion} from "framer-motion"
 
 
 
@@ -15,7 +15,18 @@ function navbar() {
     <div className="w-full flex flex-col items-center justify-center gap-3">
       
       
-      <nav className="mt-2 w-11/12 border-2  rounded-lg py-1 h-20 flex items-center border-black shadow-shadowNavbar justify-between px-10 ">
+      <motion.nav
+         initial={{
+          y:-200
+        }}
+        animate={{
+          y:0
+        }}
+        transition={{
+          duration: 0.6
+        }}
+      
+      className="mt-2 w-11/12 border-2  rounded-lg py-1 h-20 flex items-center border-black shadow-shadowNavbar justify-between px-10 ">
         <div className="pl-4 pr-2  flex items-center ">
           <Link href="/">
           
@@ -44,7 +55,7 @@ function navbar() {
           <BtnLogin/>
           <BtnSignUp/>
         </div>
-      </nav>
+      </motion.nav>
     </div>
   );
 }

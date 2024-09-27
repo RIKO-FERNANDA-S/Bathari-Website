@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import Image from 'next/image'
 import img1 from "../../../../public/img/imgHome/brands/img1.png"

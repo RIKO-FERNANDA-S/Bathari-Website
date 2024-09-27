@@ -37,7 +37,7 @@ function productShop2() {
             <div className='w-64 bg-white shadow-lg border-2 rounded-t-md'>
               <Image src={imgProduct1} alt='product' className='rounded-t-md'></Image>
               <div className='p-4'>
-                <h1 className='text-wrap text-lg mb-1'> Cavier - White T-shirt Bahan Katun</h1>
+                <h1 className='truncate text-lg mb-1'> Cavier - White T-shirt Bahan Katun</h1>
                 <div className='flex items-center mb-3'>
                 <p className='text-xs'>5.0</p>
                 <ul className='flex text-xs'>
@@ -58,7 +58,7 @@ function productShop2() {
             <div className='w-64 bg-white shadow-lg border-2 rounded-t-md'>
               <Image src={imgProduct2} alt='product' className='rounded-t-md'></Image>
               <div className='p-4'>
-                <h1 className='text-wrap text-lg mb-1'>NICE - Gray Sneakers Size S, M, X, XL, L</h1>
+                <h1 className='truncate text-lg mb-1'>NICE - Gray Sneakers Size S, M, X, XL, L</h1>
                 <div className='flex items-center mb-3'>
                 <p className='text-xs'>5.0</p>
                 <ul className='flex text-xs'>
@@ -79,7 +79,7 @@ function productShop2() {
             <div className='w-64 bg-white shadow-lg border-2 rounded-t-md'>
               <Image src={imgProduct3} alt='product' className='rounded-t-md'></Image>
               <div className='p-4'>
-                <h1 className='text-wrap text-lg mb-1'>F&B - Elegant Floral V-Neck Dress </h1>
+                <h1 className='truncate text-lg mb-1'>F&B - Elegant Floral V-Neck Dress </h1>
                 <div className='flex items-center mb-3'>
                 <p className='text-xs'>5.0</p>
                 <ul className='flex text-xs'>
@@ -100,7 +100,7 @@ function productShop2() {
             <div className='w-64 bg-white shadow-lg border-2 rounded-t-md'>
               <Image src={imgProduct4} alt='product' className='rounded-t-md'></Image>
               <div className='p-4'>
-                <h1 className='text-wrap text-lg mb-1'>BAGGUES - Cream Tote Bag for Date</h1>
+                <h1 className='truncate text-lg mb-1'>BAGGUES - Cream Tote Bag for Date</h1>
                 <div className='flex items-center mb-3'>
                 <p className='text-xs'>5.0</p>
                 <ul className='flex text-xs'>
@@ -121,7 +121,7 @@ function productShop2() {
             <div className='w-64 bg-white shadow-lg border-2 rounded-t-md'>
               <Image src={imgProduct5} alt='product' className='rounded-t-md'></Image>
               <div className='p-4'>
-                <h1 className='text-wrap text-lg mb-1'>VENZ - Cozy Cable Knit Cardigan in Beige</h1>
+                <h1 className='truncate text-lg mb-1'>VENZ - Cozy Cable Knit Cardigan in Beige</h1>
                 <div className='flex items-center mb-3'>
                 <p className='text-xs'>5.0</p>
                 <ul className='flex text-xs'>
@@ -142,7 +142,7 @@ function productShop2() {
             <div className='w-64 bg-white shadow-lg border-2 rounded-t-md'>
               <Image src={imgProduct6} alt='product' className='rounded-t-md'></Image>
               <div className='p-4'>
-                <h1 className='text-wrap text-lg mb-1'>JAWVA - Batik Solo Tradisional </h1>
+                <h1 className='truncate text-lg mb-1'>JAWVA - Batik Solo Tradisional </h1>
                 <div className='flex items-center mb-3'>
                 <p className='text-xs'>5.0</p>
                 <ul className='flex text-xs'>
@@ -163,7 +163,7 @@ function productShop2() {
             <div className='w-64 bg-white shadow-lg border-2 rounded-t-md'>
               <Image src={imgProduct7} alt='product' className='rounded-t-md'></Image>
               <div className='p-4'>
-                <h1 className='text-wrap text-lg mb-1'>DIRHAM - Gray Suit Formal Elegant Stylish</h1>
+                <h1 className='truncate text-lg mb-1'>DIRHAM - Gray Suit Formal Elegant Stylish</h1>
                 <div className='flex items-center mb-3'>
                 <p className='text-xs'>5.0</p>
                 <ul className='flex text-xs'>
@@ -184,7 +184,7 @@ function productShop2() {
             <div className='w-64 bg-white shadow-lg border-2 rounded-t-md'>
               <Image src={imgProduct8} alt='product' className='rounded-t-md'></Image>
               <div className='p-4 '>
-                <h1 className='text-wrap text-lg mb-1'>GINCCU - Casual Cream Dress Woman </h1>
+                <h1 className='truncate text-lg mb-1'>GINCCU - Casual Cream Dress Woman </h1>
                 <div className='flex items-center mb-3'>
                 <p className='text-xs'>5.0</p>
                 <ul className='flex text-xs'>

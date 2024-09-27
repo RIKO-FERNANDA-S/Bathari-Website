@@ -1,9 +1,14 @@
+"use client"
 import React from 'react'
 import Image from 'next/image';
+
+// Image dari ai canva
 import product1 from "../../../../public/img/trending/product/product1.png"
 import product2 from "../../../../public/img/trending/product/product2.png"
 import product3 from "../../../../public/img/trending/product/product3.png"
 import product4 from "../../../../public/img/trending/product/product4.png"
+
+// Image desain from canva prem
 import doir from "../../../../public/img/trending/doir.png"
 import dony from "../../../../public/img/trending/dony.png"
 import mahkota from "../../../../public/img/trending/mahkota.png"
