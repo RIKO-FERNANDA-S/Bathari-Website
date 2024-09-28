@@ -6,7 +6,7 @@ import {motion} from "framer-motion"
 
 function seacrh() {
   return (
-    <div className='w-full flex justify-center items-center'>     <div className="w-11/12 flex justify-between items-center pt-3 pb-1">
+    <div className='w-full flex justify-center items-center'> <div className="w-11/12 flex justify-between items-center pt-3 pb-1">
     <motion.div
       initial={{
         y:-100
@@ -66,17 +66,17 @@ function seacrh() {
     className="flex gap-5 items-center">
       <div className="gap-7 items-center flex pt-2 font-normal">
         <div className="flex flex-col items-center">
-          <a href="">
+          <a href="/404">
             <i className="bx bx-message-square-dots text-[1.7rem]"></i>
           </a>
         </div>
         <div className="flex flex-col items-center">
-          <a href="">
+          <a href="/404">
             <i className="bx bx-cart-alt text-[1.7rem]"></i>
           </a>
         </div>
         <div className="flex flex-col items-center mr-7">
-          <a href="">
+          <a href="/404">
             <i className="bx bx-bell text-[1.7rem]"></i>
           </a>
         </div>

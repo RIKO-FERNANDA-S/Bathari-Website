@@ -20,22 +20,21 @@ function footer() {
         <div className='flex text-textFooter gap-28'>
           <div className='flex flex-col gap-7'>
             <h1 className='text-lg font-bold text-white'>Company</h1>
-            <a href=''>About Us</a>
-            <Link href="/privacyAndPolicy">
-            <p >Privacy Policy</p></Link>
-            <a href=''>Collaboration</a>
+            <Link href='/404'><p>About Us</p></Link> 
+            <Link href="/privacyAndPolicy"><p >Privacy Policy</p> </Link>
+            <Link href='/404'><p>Collaboration</p></Link>
           </div>
           <div className='flex flex-col gap-7'>
             <h1 className='text-lg font-bold text-white'>Help</h1>
-            <a href=''>Customer Service</a>
-            <a href=''>FAQ</a>
-            <a href=''>Email Us</a>
+            <Link href='/404'><p>Customer Service</p></Link>
+            <Link href="/404"><p>FAQ</p></Link>
+            <Link href="/404"><p>Email Us</p></Link>
           </div>
           <div className='flex flex-col gap-7'>
             <h1 className='text-lg font-bold text-white'>Blog</h1>
-            <a href=''>Article</a>
-            <a href=''>BathariaEdu</a>
-            <a href=''>Join Us</a>
+            <Link href="/404"><p>Article</p></Link>
+            <Link href="/404"><p>BathariaEdu</p></Link>
+            <Link href="/404"><p>Join Us</p></Link> 
           </div>
         </div>
       </article>

@@ -10,8 +10,8 @@ function canDo() {
             <Image src={imgCanDo} alt='canDoImg' className='w-full'></Image>
         </div>
         <div className='flex flex-col text-white gap-9 w-1/2 mx-8 justify-center'>
-          <h1 className='font-semibold text-4xl'>Apa yang bisa kami lakukan untuk anda?</h1>
-          <p className='text-xl font-light'>Pada project ini, kami menghadirkan pengalaman digital yang interaktif dan inovatif, dirancang khusus untuk memenuhi kebutuhan fashion dan kecantikan Anda. Di BATHARI, kami memadukan teknologi canggih dengan estetika yang memukau untuk memberikan solusi kecantikan dan fashion yang personal dan mudah diakses. </p>
+          <h1 className='font-semibold text-4xl'>What can we do for you?</h1>
+          <p className='text-xl font-light'>In this project, we present an interactive and innovative digital experience, specifically designed to meet your fashion and beauty needs. At BATHARI, we combine advanced technology with stunning aesthetics to provide personalized and accessible beauty and fashion solutions. </p>
         </div>
     </main>
   )

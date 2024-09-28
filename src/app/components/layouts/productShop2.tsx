@@ -1,6 +1,7 @@
 "use client"
 import React from "react"
 import Image from "next/image"
+import Link from "next/link"
 
 import imgPoster1 from "../../../../public/img/SHOPP/posterPt2/assortment-father-son-clothing 1.png"
 import imgPoster2 from "../../../../public/img/SHOPP/posterPt2/img-from-rawpixcel com-freepiik 1.png"
@@ -93,7 +94,9 @@ function productShop2() {
                 <h2 className='text-xl font-medium mb-1'>Rp. 439.000</h2>
   
               <div className=''>
+                <Link href="/shop/detailProduct">
                     <button className='bg-btnNavbar w-full py-2 font-medium text-white'>Buy Now</button>
+                </Link>
                   </div>
               </div>
             </div>

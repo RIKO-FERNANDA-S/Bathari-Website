@@ -13,7 +13,7 @@ import { usePathname } from "next/navigation";
 // };
 
 
-const disabledSearch = ['/trending','/about','/shop','/gallery','/shop/detailProduct']
+const disabledSearch = ['/trending','/about','/shop','/gallery','/shop/detailProduct','/404']
 const disabledNavbar = ['/shop/detailProduct']
 
 export default function RootLayout({children }: Readonly<{ children: React.ReactNode; }>) 
