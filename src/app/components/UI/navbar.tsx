@@ -1,20 +1,17 @@
 "use client";
 import React from "react";
-import { Jacques_Francois } from "next/font/google";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-import BtnLogin from "@/app/components/UI/btnLogin"
+import BtnLogin from "./btnLogin"
 import BtnSignUp from "./btnSignUp";
 import {motion} from "framer-motion"
 
 
 
-function navbar() {
+function Navbar() {
   const pathname = usePathname();
   return (
     <div className="w-full flex flex-col items-center justify-center gap-3">
-      
-      
       <motion.nav
          initial={{
           y:-200
@@ -60,4 +57,4 @@ function navbar() {
   );
 }
 
-export default navbar;
+export default Navbar;

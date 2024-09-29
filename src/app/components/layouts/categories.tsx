@@ -1,14 +1,5 @@
 "use client"
 import React from 'react'
-// import Image from 'next/image'
-// import imgBrand1 from "../../../../public/img/brandCollab/1.png"
-// import imgBrand2 from "../../../../public/img/brandCollab/2.png"
-// import imgBrand3 from "../../../../public/img/brandCollab/3.png"
-// import imgBrand4 from "../../../../public/img/brandCollab/4.png"
-// import imgBrand5 from "../../../../public/img/brandCollab/5.png"
-// import imgBrand6 from "../../../../public/img/brandCollab/6.png"
-
-// import { Splide, SplideSlide } from '../../../../node_modules/@splidejs/react-splide/dist/types';
 import { Splide, SplideSlide} from "../../../../node_modules/@splidejs/react-splide"
 import '@splidejs/react-splide/css/sea-green';
 import Link from 'next/link';
@@ -33,57 +24,57 @@ return(
   }} 
     aria-label="My Favorite Images">
   <SplideSlide className="flex justify-center items-center">
-    <Link href="/">
+    <Link href='/'>
     <h1 className='w-48 border-2 border-pink-600 shadow-xl text-center bg-white py-2 px-3'>Lipstik</h1>
     </Link>
   </SplideSlide>
   <SplideSlide className="flex justify-center items-center">
-    <Link href="/">
+    <Link href='/'>
     <h1 className='w-48 border-2 border-pink-600 shadow-xl text-center bg-white py-2 px-3'>Women's Fashion</h1>
     </Link>
   </SplideSlide>
   <SplideSlide className="flex justify-center items-center">
-    <Link href="/">
+    <Link href='/'>
     <h1 className='w-48 border-2 border-pink-600 shadow-xl text-center bg-white py-2 px-3'>Men's Fashion </h1>
     </Link>
   </SplideSlide>
   <SplideSlide className="flex justify-center items-center">
-    <Link href="/">
+    <Link href='/'>
     <h1 className='w-48 border-2 border-pink-600 shadow-xl text-center bg-white py-2 px-3'>Makeup</h1>
     </Link>
   </SplideSlide>
   <SplideSlide className="flex justify-center items-center">
-    <Link href="/">
+    <Link href='/'>
     <h1 className='w-48 border-2 border-pink-600 shadow-xl text-center bg-white py-2 px-3'>Fragrance</h1>
     </Link>
   </SplideSlide>
   <SplideSlide className="flex justify-center items-center">
-    <Link href="/">
+    <Link href='/'>
     <h1 className='w-48 border-2 border-pink-600 shadow-xl text-center bg-white py-2 px-3'>Haircare</h1>
     </Link>
     </SplideSlide>
   <SplideSlide className="flex justify-center items-center">
-    <Link href="/">
+    <Link href='/'>
     <h1 className='w-48 border-2 border-pink-600 shadow-xl text-center bg-white py-2 px-3'>Footwear</h1>
     </Link>
   </SplideSlide>
   <SplideSlide className="flex justify-center items-center">
-    <Link href="/">
+    <Link href='/'>
     <h1 className='w-48 border-2 border-pink-600 shadow-xl text-center bg-white py-2 px-3'>Jewelry</h1>
     </Link>
   </SplideSlide>
   <SplideSlide className="flex justify-center items-center">
-    <Link href="/">
+    <Link href='/'>
     <h1 className='w-48 border-2 border-pink-600 shadow-xl text-center bg-white py-2 px-3'>Bags</h1>
     </Link>
   </SplideSlide>
   <SplideSlide className="flex justify-center items-center">
-    <Link href="/">
+    <Link href='/'>
     <h1 className='w-48 border-2 border-pink-600 shadow-xl text-center bg-white py-2 px-3'>Accessories </h1>
     </Link>
   </SplideSlide>
   <SplideSlide className="flex justify-center items-center">
-    <Link href="/">
+    <Link href='/'>
     <h1 className='w-48 border-2 border-pink-600 shadow-xl text-center bg-white py-2 px-3'>Nutrition</h1>
     </Link>
   </SplideSlide>
