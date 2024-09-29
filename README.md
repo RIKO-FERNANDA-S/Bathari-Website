@@ -44,4 +44,4 @@ Jelajahi halaman **Gallery** untuk mendapatkan inspirasi gaya yang sesuai dengan
 (https://bathari-smk-darma-siswa.vercel.app)
 
 ## SHITSUREI SHIMASU, SUMIMASEN
- **Mohon Maaf Kami Masih Menyediakan Tampilan Dekstop **
+ **Mohon Maaf Kami Masih Menyediakan Tampilan Dekstop**
