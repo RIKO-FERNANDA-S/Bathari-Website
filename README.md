@@ -33,6 +33,8 @@ Langkah-langkah untuk menginstal dan menjalankan proyek Bathari secara lokal:
 3. Pergi ke halaman **Blog** untuk melihat rank style yang sedang tren.
 Jelajahi halaman **Gallery** untuk mendapatkan inspirasi gaya yang sesuai dengan tren terkini.
 4. Dan juga dapat meilihat tentang kami di halaman **About**
+   
+(Kalian Juga Bisa File **manual guides.docx** yang ada tempat di bawah file ini :>)
 
 ## Kontributor
 1. Riko Fernanda Saputra
