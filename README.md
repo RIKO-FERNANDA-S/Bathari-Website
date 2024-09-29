@@ -16,29 +16,32 @@ Langkah-langkah untuk menginstal dan menjalankan proyek Bathari secara lokal:
    ```bash
    git clone https://github.com/username/Bathari.git
 2. masuk ke direktori proyek
+   ```bash
    cd Bathari
-3. install dependensi
+4. install dependensi
+   ```bash
    npm install
-4. jalankan aplikasi dalam mode pengembang
+6. jalankan aplikasi dalam mode pengembang
+   ```bash
    npm run dev
-5. akses aplikasi di browser melalui http://localhost:3000
+8. akses aplikasi di browser melalui http://localhost:3000
 
 
-Cara penggunaan
+## Cara penggunaan
 1. Buka aplikasi melalui URL yang telah disediakan.
 2. Navigasikan ke halaman **Shop** untuk melihat produk-produk fashion dan kecantikan.
 3. Pergi ke halaman **Blog** untuk melihat rank style yang sedang tren.
 Jelajahi halaman **Gallery** untuk mendapatkan inspirasi gaya yang sesuai dengan tren terkini.
 4. Dan juga dapat meilihat tentang kami di halaman **About**
 
-**Kontributor**
+## Kontributor
 1. Riko Fernanda Saputra
 2. A. Pasha A.
 3. Ridho Rachmanto
 
 
-**KALIAN BISA MELIHAT WEBSITE KAMI YANG SUDAH TERDEPLOY DI VERCEL**
-https://bathari-smk-darma-siswa.vercel.app
+## KALIAN BISA MELIHAT WEBSITE KAMI YANG SUDAH TERDEPLOY DI VERCEL
+(https://bathari-smk-darma-siswa.vercel.app)
 
 ## SHITSUREI SHIMASU, SUMIMASEN
-## Mohon Maaf Kami Masih Menyediakan Tampilan Dekstop 
+ **Mohon Maaf Kami Masih Menyediakan Tampilan Dekstop **
