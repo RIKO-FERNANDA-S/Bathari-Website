@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Bathari
 
-## Getting Started
+**Bathari** adalah platform yang menggabungkan kecantikan dan fashion dalam satu tempat. Aplikasi ini memungkinkan pengguna untuk berbelanja produk kecantikan dan fashion, melihat tren fashion terkini, serta mendapatkan inspirasi gaya yang kekinian.
 
-First, run the development server:
+## Fitur Utama
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Belanja Produk Kecantikan dan Fashion**: Temukan dan beli berbagai produk kecantikan dan fashion terbaru.
+- **Trending Fashion**: Jelajahi tren fashion yang sedang hits saat ini.
+- **Inspirasi Style Kekinian**: Dapatkan ide gaya dari berbagai koleksi fashion modern.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Instalasi
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Langkah-langkah untuk menginstal dan menjalankan proyek Bathari secara lokal:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Clone repositori ini:
+   ```bash
+   git clone https://github.com/username/Bathari.git
+2. masuk ke direktori proyek
+   cd Bathari
+3. install dependensi
+   npm install
+4. jalankan aplikasi dalam mode pengembang
+   npm run dev
+5. akses aplikasi di browser melalui http://localhost:3000
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+Cara penggunaan
+1. Buka aplikasi melalui URL yang telah disediakan.
+2. Navigasikan ke halaman **Shop** untuk melihat produk-produk fashion dan kecantikan.
+3. Pergi ke halaman **Blog** untuk melihat rank style yang sedang tren.
+Jelajahi halaman **Gallery** untuk mendapatkan inspirasi gaya yang sesuai dengan tren terkini.
+4. Dan juga dapat meilihat tentang kami di halaman **About**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Kontributor**
+1. Riko Fernanda Saputra
+2. A. Pasha A.
+3. Ridho Rachmanto
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+**KALIAN BISA MELIHAT WEBSITE KAMI YANG SUDAH TERDEPLOY DI VERCEL**
+https://bathari-smk-darma-siswa.vercel.app
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## SHITSUREI SHIMASU, SUMIMASEN
+## Mohon Maaf Kami Masih Menyediakan Tampilan Dekstop 
