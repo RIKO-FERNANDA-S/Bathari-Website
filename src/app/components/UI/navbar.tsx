@@ -11,7 +11,7 @@ import {motion} from "framer-motion"
 function Navbar() {
   const pathname = usePathname();
   return (
-    <div className="w-full flex flex-col items-center justify-center gap-3">
+    <div className="w-full hidden lg:flex flex-col items-center justify-center gap-3">
       <motion.nav
          initial={{
           y:-200

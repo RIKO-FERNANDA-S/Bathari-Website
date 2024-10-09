@@ -40,7 +40,8 @@ const config: Config = {
       },
       backgroundImage:{
         imgProduct1: "./public/img/trending/product/product1.png",
-        imgCollab: "./public/img/imgHome/collab.png"
+        imgCollab: "./public/img/imgHome/collab.png",
+        imgCanDoHp: "url('/public/img/imgHome/canDoImgHp.png')"
       },
       animation:{
         "loop-scroll": "loop-scroll 50s linear infinite"

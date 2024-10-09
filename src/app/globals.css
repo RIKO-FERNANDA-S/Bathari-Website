@@ -3,6 +3,9 @@
 @tailwind components;
 @tailwind utilities;
 
+/* *{
+  color: black;
+} */
 
 h1,
 h2,
@@ -18,5 +21,9 @@ li {
 }
 
 body {
-  background-color: #ededed;
+  background-color: #74d1e9;
+}
+
+.splide {
+  padding: 0;
 }

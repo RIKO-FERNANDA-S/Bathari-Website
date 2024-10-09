@@ -18,9 +18,9 @@ function Hero() {
       initial={{ opacity: 0, scale: 0.5 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.5 }}
-        className="flex flex-col items-center">
-            <Image src={glamourText} alt="glamourText" className="w-3/5"></Image>
-            <Image src={glamourCard} alt="glamourCard" className="w-10/12"></Image>
+        className="flex flex-col items-center mx-6">
+            <Image src={glamourText} alt="glamourText" className="w-[50em] "></Image>
+            <Image src={glamourCard} alt="glamourCard" className="w-[70em]"></Image>
         </motion.div>
         <CanDo/>
         <Categories/>
