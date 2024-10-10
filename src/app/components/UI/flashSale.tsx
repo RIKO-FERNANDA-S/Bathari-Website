@@ -22,7 +22,7 @@ function flashSale() {
           </div>
         </div>
 
-        <Splide className="hidden lg:flex justify-center max-h-min" 
+        <Splide className="hidden lg:flex justify-center max-h-min cursor-grab active:cursor-grabbing" 
         options={{
           type: 'loop',
           perPage: 4,

@@ -3,10 +3,10 @@ import React from 'react'
 import Image from 'next/image'
 
 // Desain by canva
-import imgUtama from "../../../../public/img/SHOPP/utama.png"
+import imgUtama from "../../../public/img/SHOPP/utama.png"
 
-import ProductShop1 from '@/app/components/layouts/productShop1'
-import ProductShop2 from '@/app/components/layouts/productShop2'
+import ProductShop1 from '../components/layouts/productShop1'
+import ProductShop2 from '../components/layouts/productShop2'
 
 
 function shop() {

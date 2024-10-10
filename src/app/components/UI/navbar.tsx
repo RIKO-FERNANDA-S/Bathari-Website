@@ -47,6 +47,10 @@ function Navbar() {
           <Link href="/shop">
             <h1 className={` py-3 px-4  ${pathname === "/shop" ? "text-white bg-black rounded-md" : "text-black bg-none"}`}>Shop</h1>
           </Link>
+
+          <Link href="/aibath">
+            <h1 className={` py-3 px-4  ${pathname === "/aibath" ? "text-white bg-black rounded-md" : "text-black bg-none"}`}>AI Bath</h1>
+          </Link>
         </div>
         <div className="flex gap-4 font-medium">
           <BtnLogin/>

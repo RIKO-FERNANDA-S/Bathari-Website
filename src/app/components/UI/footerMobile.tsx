@@ -82,15 +82,11 @@ function footerMobile() {
 
     <article className="flex text-center pt-5 gap-5 flex-col justify-between items-center">
       <div className="flex flex-wrap gap-7   w-full justify-center">
-        <Image src={Facebook} alt="facebook" className="w-8 "></Image>
-        <Image src={Telegram} alt="Telegram" className="w-8 "></Image>
-        <Image src={Tweeter} alt="tweeter" className="w-8 "></Image>
-        <Image src={Whastapp} alt="whatsapp" className="w-8 "></Image>
-        <Image
-          src={Instagram}
-          alt="instagram"
-          className="w-8 "
-        ></Image>
+        <Link href="/404"><Image src={Facebook} alt="facebook" className="w-8 "></Image></Link>
+        <Link href="/404"><Image src={Telegram} alt="Telegram" className="w-8 "></Image></Link>
+        <Link href="/404"><Image src={Tweeter} alt="tweeter" className="w-8 "></Image></Link>
+        <Link href="/404"><Image src={Whastapp} alt="whatsapp" className="w-8 "></Image></Link>
+        <Link href="/404"><Image src={Instagram} alt="instagram" className="w-8 "></Image></Link>
       </div>
       <div className="w-full p-4">
         <h1>PT. Prakarsa Bathari Agung - THIS WEB FOR EDUCATION </h1>

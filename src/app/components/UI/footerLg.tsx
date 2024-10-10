@@ -12,7 +12,7 @@ function footerLg() {
   return (
     <main className="bg-black text-white hidden lg:flex lg:flex-col">
     <article className="flex  py-10 justify-center px-24 border-b-2 border-borderAAA ">
-      <div className="flex flex-col w-1/2 pr-32">
+      <div className="flex flex-col w-2/4 pr-32">
         <h1 className="text-4xl font-batharia">BAHTARI</h1>
         <p className="my-11 text-base font-normal text-textFooter">
           Jl. Wijaya Kusuma No.9 - 11, Bebek, Berbek, Kec. Waru, Kabupaten
@@ -23,12 +23,12 @@ function footerLg() {
         </p>
       </div>
 
-      <div className="flex gap-28 ">
+      <div className="flex gap-14 w-1/2 ">
         <div className="flex flex-col gap-7 ">
           <h1 className="text-lg font-bold text-white ">
             Company
           </h1>
-          <div className="collapse-content flex flex-col text-textFooter">
+          <div className="flex flex-col gap-4 text-textFooter">
             
             <Link href="/404">
               <p>About Us</p>
@@ -43,13 +43,31 @@ function footerLg() {
         </div>
 
         <div className="flex flex-col gap-7 ">
+          <h1 className="text-lg font-bold text-white ">
+            Contact
+          </h1>
+          <div className="flex flex-col gap-4 text-textFooter">
+            
+            <Link href="/404">
+              <p>Contact Us</p>
+            </Link>
+            <Link href="/404">
+              <p>Support</p>
+            </Link>
+            <Link href="/404">
+              <p>Location</p>
+            </Link>
+          </div>
+        </div>
+
+        <div className="flex flex-col gap-7 ">
           
           <h1 className="text-lg font-bold text-white ">
             Help
           </h1>
-          <div className=" text-textFooter">
+          <div className="flex flex-col gap-4 text-textFooter">
             <Link href="/404">
-              <p>Customer Service</p>
+              <p>CS</p>
             </Link>
             <Link href="/404">
               <p>FAQ</p>
@@ -65,7 +83,7 @@ function footerLg() {
           <h1 className="text-lg font-bold text-white ">
             Blog
           </h1>
-          <div className=" text-textFooter">
+          <div className="flex flex-col gap-4 text-textFooter">
             <Link href="/404">
               <p>Article</p>
             </Link>
@@ -85,15 +103,16 @@ function footerLg() {
         <h1>PT. Prakarsa Bathari Agung - THIS WEB FOR EDUCATION </h1>
       </div>
       <div className="flex flex-wrap gap-10 w-1/2 justify-center">
-        <Image src={Facebook} alt="facebook" className="w-10"></Image>
-        <Image src={Telegram} alt="Telegram" className="w-10"></Image>
-        <Image src={Tweeter} alt="tweeter" className="w-10"></Image>
-        <Image src={Whastapp} alt="whatsapp" className="w-10"></Image>
-        <Image
-          src={Instagram}
-          alt="instagram"
-          className="w-10"
-        ></Image>
+      <Link href="/404"><Image src={Facebook} alt="facebook" className="w-10"></Image></Link>
+      <Link href="/404"><Image src={Telegram} alt="Telegram" className="w-10"></Image></Link>
+      <Link href="/404"><Image src={Tweeter} alt="tweeter" className="w-10"></Image></Link>
+      <Link href="/404"><Image src={Whastapp} alt="whatsapp" className="w-10"></Image></Link>
+      <Link href="/404"><Image src={Instagram} alt="instagram"className="w-10"></Image></Link>
+
+
+
+
+
       </div>
     </article>
   </main>
