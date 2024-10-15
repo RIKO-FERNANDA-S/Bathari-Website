@@ -4,12 +4,16 @@ import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import BtnLogin from "./btnLogin"
 import BtnSignUp from "./btnSignUp";
-import {motion} from "framer-motion"
+import {motion} from "framer-motion";
+import { useSession } from "next-auth/react";
+import BtnLogout from "./btnLogout";
 
 
 
 function Navbar() {
   const pathname = usePathname();
+  const { status}: { status: string} = useSession()
+
   return (
     <div className="w-full hidden lg:flex flex-col items-center justify-center gap-3">
       <motion.nav
@@ -31,29 +35,36 @@ function Navbar() {
             BATHARI
           </h1></Link>
         </div>
-        <div className="flex gap-10 font-medium ">
-          <Link href="/trending">
-            <h1 className={` py-3 px-4  ${pathname === "/trending" ? "text-white bg-black rounded-md" : "text-black bg-none"}`}>Blog</h1>
+        <div className="flex gap-5 font-medium text-base ">
+          <Link href="/">
+            <h1 className={` py-2 px-5  ${pathname === "/" ? "text-white bg-black rounded-md" : "text-black bg-none"}`}>Beranda</h1>
+          </Link>
+
+          <Link href="/blog">
+            <h1 className={` py-2 px-5  ${pathname === "/blog" ? "text-white bg-black rounded-md" : "text-black bg-none"}`}>Blog</h1>
           </Link>
 
           <Link href="/about">
-            <h1 className={` py-3 px-4  ${pathname === "/about" ? "text-white bg-black rounded-md" : "text-black bg-none"}`}>About</h1>
+            <h1 className={` py-2 px-5  ${pathname === "/about" ? "text-white bg-black rounded-md" : "text-black bg-none"}`}>Tentang</h1>
           </Link>
 
           <Link href="/gallery">
-            <h1 className={` py-3 px-4  ${pathname === "/gallery" ? "text-white bg-black rounded-md" : "text-black bg-none"}`}>Gallery</h1>
+            <h1 className={` py-2 px-5  ${pathname === "/gallery" ? "text-white bg-black rounded-md" : "text-black bg-none"}`}>Galeri</h1>
           </Link>
 
           <Link href="/shop">
-            <h1 className={` py-3 px-4  ${pathname === "/shop" ? "text-white bg-black rounded-md" : "text-black bg-none"}`}>Shop</h1>
+            <h1 className={` py-2 px-5  ${pathname === "/shop" ? "text-white bg-black rounded-md" : "text-black bg-none"}`}>Belanja</h1>
           </Link>
 
           <Link href="/aibath">
-            <h1 className={` py-3 px-4  ${pathname === "/aibath" ? "text-white bg-black rounded-md" : "text-black bg-none"}`}>AI Bath</h1>
+            <h1 className={` py-2 px-5  ${pathname === "/aibath" ? "text-white bg-black rounded-md" : "text-black bg-none"}`}>AI Bath</h1>
           </Link>
         </div>
         <div className="flex gap-4 font-medium">
-          <BtnLogin/>
+          {status === 'authenticated' 
+          ?  (<BtnLogout/>)
+          : (<BtnLogin/>)
+          }
           <BtnSignUp/>
         </div>
       </motion.nav>
