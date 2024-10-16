@@ -10,7 +10,7 @@ const brandsCollab = () => {
 return(
   <div  className='bg-imgCollab bg-cover bg-no-repeat py-32 text-black'>
     <div className='flex flex-col items-center text-center w-full justify-center mb-3 gap-2 lg:mb-8 lg:gap-3'>
-    <h1 className='font-bold text-black text-3xl lg:text-5xl '>Categories</h1>
+    <h1 className='font-bold text-black text-3xl lg:text-5xl '>Kategori</h1>
     <p className='font-light text-base '>Pilihlah item yang Anda sukai agar penampilan Anda menjadi lebih menarik</p>
     </div>
 

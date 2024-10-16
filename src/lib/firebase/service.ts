@@ -58,8 +58,8 @@ export async function register(
 }
 
 
-export async function login(email: string) {
-    const q = query(collection(firestore, 'users'), where('email', '==', 'data.email')
+export async function login(data:{email: string}) {
+    const q = query(collection(firestore, 'users'), where('email', '==', data.email)
 
 );
     const snapshot = await getDocs(q);
@@ -74,6 +74,9 @@ export async function login(email: string) {
         return null;
     }
 };
+
+
+
 
 
 

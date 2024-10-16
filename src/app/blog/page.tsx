@@ -103,7 +103,7 @@ function trending() {
             <h1 className='w-max font-bold text-3xl'>Fashion Ala Dony Brown!</h1>
             
             <Image src={dony} alt='dony' className='w-[31rem] my-7 shadow-shadowBenner border-2 border-black rounded-2xl'></Image>
-            <p className='w-full font-medium'><span className='font-bold'>Dony Brown</span> is a model who is rising in the world of international fashion. With his elegant, innovative style and a touch of glamour, Dony has won the hearts of many fashion and industry fans.</p>
+            <p className='w-full font-medium'><span className='font-bold'>Dony Brown</span> adalah model yang sedang naik daun di dunia fashion internasional. Dengan gayanya yang elegan, inovatif dan sentuhan glamour, Dony telah memenangkan hati banyak penggemar fashion dan industri.</p>
           </div>
           <div className='w-1/2'>
             <h1 className='font-bold text-3xl'>Trending Models This Week :</h1>
@@ -129,10 +129,10 @@ function trending() {
             <h1 className='w-max font-bold text-3xl'>Beauty Ala DOIR!</h1>
             
             <Image src={doir} alt='dony' className='w-[31rem] my-7 shadow-shadowBenner border-2 border-black rounded-2xl'></Image>
-            <p className='w-full font-medium text-base'>Combining classic beauty elements with modern technology, DOIR always tries to present products that not only beautify, but also care for the skin with premium ingredients.</p>
+            <p className='w-full font-medium text-base'>Menggabungkan unsur kecantikan klasik dengan teknologi modern, DOIR selalu berusaha menghadirkan produk yang tidak hanya mempercantik, tapi juga merawat kulit dengan bahan-bahan premium.</p>
           </div>
           <div className='w-1/2'>
-            <h1 className='font-bold text-3xl'>Trending Beauty Products This Week</h1>
+            <h1 className='font-bold text-3xl'>Produk Kecantikan Yang Sedang Tren Minggu Ini</h1>
             <div className='flex flex-col my-5 gap-6'>
               <div className='flex justify-between items-center bg-Cgold py-3 px-8 w-96 rounded-xl border-black border shadow-shadowBtn'>
                 <h1 className='text-3xl font-semibold'>1. DOIR</h1>

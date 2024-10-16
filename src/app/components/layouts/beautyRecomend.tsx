@@ -10,7 +10,7 @@ function beautyRecomend() {
   return (
     <main className='flex items-center flex-col my-20 text-black'>
         <div className='mb-6 flex flex-col gap-3 text-center'>
-        <h1 className='font-semibold text-4xl'>Beauty Recommendation</h1>
+        <h1 className='font-semibold text-4xl'>Rekomendasi Kecantikan</h1>
         <h4 className='font-light'>Produk pilihan untuk kilau yang mempesona sepanjang hari!</h4>
         </div>
         <div className='flex justify-center gap-10 mt-8 flex-wrap'>

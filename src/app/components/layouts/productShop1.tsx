@@ -23,7 +23,7 @@ function productShop1() {
   return (
     <main>
          <article className='flex flex-col mx-7 items-center'>
-        <h1 className='font-semibold text-5xl mb-7'>Bauty Product</h1>
+        <h1 className='font-semibold text-5xl mb-7'>Produk Kecantikan</h1>
         <div className='flex gap-4'>
           <div className='w-1/2 h-[36rem] bg-slate-400'>
             <Image src={imgPoster1} alt='imgPoster1' className='w-full h-full'></Image>
