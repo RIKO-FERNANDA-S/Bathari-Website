@@ -9,7 +9,7 @@ export default async function handler(req: NextRequest, res: NextResponse) {
       const response = await fetch('process.env.URL_GEMINI', {
         method: 'POST',
         headers: {
-          'Authorization': `Bearer ${process.env.NEXT_PUBLIC_GEMINI_API_KEY}`,
+          'Authorization': ` ${process.env.NEXT_PUBLIC_GEMINI_API_KEY}`,
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({ prompt: message}),
