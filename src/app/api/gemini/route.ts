@@ -1,7 +1,7 @@
 // pages/api/gemini.ts
 import { NextRequest, NextResponse } from 'next/server';
 
-export default async function handler(req: NextRequest, res: NextResponse) {
+export async function POST(req: NextRequest, res: NextResponse) {
   if (req.method === 'POST') {
     const { message }: any = req.body;
 
