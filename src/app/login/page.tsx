@@ -1,3 +1,4 @@
+"use client"
 import LoginForm from '@/app/components/layouts/loginForm'
 import React from 'react'
 
