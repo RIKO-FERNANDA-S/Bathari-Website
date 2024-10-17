@@ -7,7 +7,7 @@ import {motion} from "framer-motion"
 import { useState, createContext } from "react";
 import 'boxicons'
 
-function navSide() {
+function NavSide() {
 
     const [expend, setexpend] = useState(true)
     const pathname = usePathname()
@@ -72,4 +72,4 @@ function navSide() {
   )
 }
 
-export default navSide
+export default NavSide

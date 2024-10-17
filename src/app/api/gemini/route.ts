@@ -1,29 +1,29 @@
 // pages/api/gemini.ts
-import type { NextApiRequest, NextApiResponse } from 'next';
+import { NextRequest, NextResponse } from 'next/server';
 
-export default async function handler(req: NextApiRequest, res: NextApiResponse) {
+export default async function handler(req: NextRequest, res: NextResponse) {
   if (req.method === 'POST') {
-    const { message } = req.body;
+    const { message }: any = req.body;
 
-    // Panggil API Gemini menggunakan fetch
     try {
-      const response = await fetch('https://api.gemini.ai/your-endpoint', {
+      const response = await fetch('process.env.URL_GEMINI', {
         method: 'POST',
         headers: {
-          'Authorization': `Bearer ${process.env.GEMINI_API_KEY}`,
+          'Authorization': `Bearer ${process.env.NEXT_PUBLIC_GEMINI_API_KEY}`,
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ prompt: message }),
+        body: JSON.stringify({ prompt: message}),
       });
 
       const data = await response.json();
       console.log(data)
-      res.status(200).json({ response: data.choices[0].text });
+      return NextResponse.json({ response: data.choices[0].text });
     } catch (error) {
-      res.status(500).json({ error: 'Something went wrong' });
+      return NextResponse.json({ error: 'Something went wrong' });
     }
   } else {
-    res.setHeader('Allow', ['POST']);
-    res.status(405).end(`Method ${req.method} Not Allowed`);
+    const response = NextResponse.json({ message: 'GET method not allowed' }, { status: 405 });
+    response.headers.set('Allow', 'POST');
+    return response;
   }
 }

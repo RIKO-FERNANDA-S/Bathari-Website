@@ -15,7 +15,7 @@ import imgCasual8 from "../../../../public/img/gallery/casual/5.2.jpg"
 function casualStyle() {
   return (
     <div>
-              <article className='mb-32 mt-24' >
+              <article className='mb-32 mt-10' >
         <h1 className='font-medium text-3xl my-8 ml-8'>Casual Style:</h1>
         <div className='flex w-full px-4 py-10 gap-3 justify-center bg-slate-50'>
           <figure className='w-[15%] flex flex-col gap-3'>
